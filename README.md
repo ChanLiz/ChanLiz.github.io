@@ -1,4 +1,4 @@
-# Xiuming Zhang's Homepage
+# Lizhi Chen's Homepage
 
 Modified from [the Read Only template](https://html5up.net/read-only) of
 [HTML5 UP](https://html5up.net/), licensed generously under
@@ -7,7 +7,7 @@ Modified from [the Read Only template](https://html5up.net/read-only) of
 
 ## What It Looks Like
 
-See it in action [here](http://people.csail.mit.edu/xiuming/).
+See it in action [here](http://chanliz.github.io/).
 
 
 ## Usage
