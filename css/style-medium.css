@@ -95,7 +95,7 @@ body, input, select, textarea {
 }
 
 #titleBar .toggle:before {
-    background: #A31F34;
+    background: #3D0E61;
     color: #ffffff;
     content: '\f0c9';
     display: block;
@@ -110,6 +110,6 @@ body, input, select, textarea {
 }
 
 #sidePanel {
-    background: #A31F34;
+    background: #3D0E61;
     color: #fff;
 }
