@@ -959,7 +959,7 @@ input[type="button"]:disabled,
 /* Header */
 
 #header {
-    background: #A31F34;
+    background: #3C096C;
     color: #d1f1e9;
     height: 100%;
     position: fixed;
@@ -1000,14 +1000,15 @@ input[type="button"]:disabled,
 }
 
 #header > header h1 {
-    font-size: 1.75em;
+    font-size: 1.80em;
     margin: 0;
 }
 
 #header > header p {
     color: #d1f1e9;
+    font-size: 1.10em;
     font-style: italic;
-    margin: 1em 0 0 0;
+    margin: 0.8em 0 0 0;
 }
 
 #header > footer {
@@ -1033,7 +1034,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-    border-top: solid 2px #A36034;
+    border-top: solid 2px #3a506b;
     display: block;
     padding: 0;
 }
@@ -1047,13 +1048,14 @@ input[type="button"]:disabled,
     border: 0;
     color: #ffffff !important;
     display: block;
-    padding: 0.85em 0;
+    padding: 0.80em 0;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
 #header > nav ul li a.active {
     background: #fff;
-    color: #A31F34 !important;
+    color: #3d0e61 !important;
 }
 
 #header > nav ul li:first-child {
@@ -1084,7 +1086,7 @@ input[type="button"]:disabled,
 /* One */
 
 #one:before {
-    background-image: url("../images/banners/mosculp.jpg");
+    background-image: url("../images/banners/clz.png");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;

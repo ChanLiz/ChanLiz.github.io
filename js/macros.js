@@ -1,25 +1,43 @@
 function getConst(id) {
     switch(id) {
+        case "thu":
+            document.write("<a target='_blank' href=\"https://www.tsinghua.edu.cn/en/\">Tsinghua University (THU)</a>");
+            break;
+        case "bit":
+            document.write("<a target='_blank' href=\"https://english.bit.edu.cn/\">Beijing Institute of Technology (BIT)</a>");
+            break;        
         case "me":
-            document.write("<u>Xiuming Zhang</u>");
+            document.write("<u>Lizhi Chen</u>");
             break;
-        case "freeman_hikey":
-            document.write("<a target='_blank' href=\"http://billf.mit.edu/\">William T. Freeman</a>");
+        case "hao_zhang":
+            document.write("<a target='_blank' href=\"https://scholar.google.com/citations?user=hdXlYn4AAAAJ&hl=en\">Hao Zhang</a>");
             break;
-        case "freeman":
-            document.write("<a class=\"lowkey\" target='_blank' href=\"http://billf.mit.edu/\">William T. Freeman</a>");
+        case "haoz":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.researchgate.net/profile/Hao-Zhang-44\">Hao Zhang</a>");
             break;
-        case "mit":
-            document.write("<a target='_blank' href=\"http://www.mit.edu\">Massachusetts Institute of Technology (MIT)</a>");
+        case "liangcai":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.researchgate.net/profile/Liangcai-Cao\">Liangcai Cao</a>");
+            break;
+        case "guofan":
+            document.write("Guofan Jin");
+            break;
+        case "dewen_cheng":
+            document.write("<a target='_blank' href=\"https://scholar.google.com/citations?user=sntmRUUAAAAJ&hl=en\">Dewen Cheng</a>");
+            break;
+        case "zehao":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.researchgate.net/profile/Zehao-He\">Zehao He</a>");
+            break;
+        case "xiaoyu":
+            document.write("Xiaoyu Wang");
+            break;
+        case "songzhi":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.researchgate.net/profile/Songzhi_Tian\">Songzhi Tian</a>");
             break;
         case "google_res":
             document.write("<a target='_blank' href=\"https://research.google/\">Google Research</a>");
             break;
         case "i2r":
             document.write("<a target='_blank' href=\"https://www.a-star.edu.sg/i2r\">Institute for Infocomm Research</a>");
-            break;
-        case "fanello":
-            document.write("<a class=\"lowkey\" target='_blank' href=\"http://www.seanfanello.it/\">Sean Fanello</a>");
             break;
         case "tiancheng":
             document.write("<a class=\"lowkey\" target='_blank' href=\"http://kevinkingo.com/\">Tiancheng Sun</a>");
@@ -108,6 +126,18 @@ function getConst(id) {
         case "ren":
             document.write("<a class=\"lowkey\" target='_blank' href=\"https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html\">Ren Ng</a>");
             break;
+        case "ao":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.osapublishing.org/ao/home.cfm\">Applied Optics</a>");
+            break;
+        case "oe":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.osapublishing.org/oe/home.cfm\">Optics Express</a>");
+            break;
+        case "dh":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.osapublishing.org/conference.cfm?meetingid=63\">Digital Holography and Three-Dimensional Imaging</a>");
+            break;
+        case "as":
+            document.write("<a class=\"lowkey\" target='_blank' href=\"https://www.mdpi.com/journal/applsci\">Applied Sciences</a>");
+            break;
         case "iccv":
             document.write("<a class=\"lowkey\" target='_blank' href=\"https://en.wikipedia.org/wiki/International_Conference_on_Computer_Vision\">ICCV</a>")
             break;
@@ -181,7 +211,7 @@ function getConst(id) {
             document.write("<a target='_blank' href=\"http://www.upi.com/Health_News/2016/10/07/Brain-atrophy-patterns-may-explain-diversity-in-Alzheimers-symptoms/9771475867874/\">UPI</a>");
             break;
         case "email":
-            document.write("xiuming <w>at</w> csail <w>dot</w> mit <w>dot</w> edu");
+            document.write("clz18 <w>at</w> mails <w>dot</w> tsinghua <w>dot</w> edu <w>dot</w> cn");
             break;
         default:
             document.write("<font color=\"#FF0000\">UNDEFINED</font>");
@@ -204,6 +234,10 @@ function getSep(size) {
 function sup(text, link) {
     var fontsize = "";
     return `<sup><font size="${fontsize}"><a target='_blank' href="${link}">[${text}]</a></font></sup>`;
+}
+
+function doi(link) {
+    document.write(sup("doi", link));
 }
 
 function paper(link) {
