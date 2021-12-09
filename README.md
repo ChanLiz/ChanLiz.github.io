@@ -10,10 +10,3 @@ and [xiuming zhang's homepage](http://people.csail.mit.edu/xiuming/).
 
 See it in action [here](https://chanliz.github.io/).
 
-
-## Usage
-
-Please feel free to use this for your homepage, but on your page, please
-attribute the source to [HTML5 UP](https://html5up.net/) and
-[xiuming zhang's homepage](http://people.csail.mit.edu/xiuming/).
-
