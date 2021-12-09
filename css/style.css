@@ -1103,7 +1103,7 @@ input[type="button"]:disabled,
     border-top: 0;
     color: #8A8B8C;
     overflow: hidden;
-    padding: 4em 0 2em 0;
+    padding: 2em 0 0 0;
 }
 
 #footer .copyright {
@@ -1122,7 +1122,7 @@ input[type="button"]:disabled,
 
 #footer .copyright li:first-child {
     border-left: 0;
-    margin-left: 0;
+    margin-left: 10em;
     padding-left: 0;
 }
 
